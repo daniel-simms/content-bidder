@@ -4,6 +4,7 @@ $error_reporting = 0;
 /* ==================== */
 /* Database Connect
 /* ==================== */
+require_once 'cred.php';
 $serverName='localhost';
 $userName=$_ENV['DB_USER'];
 $password=$_ENV['DB_PASS'];
